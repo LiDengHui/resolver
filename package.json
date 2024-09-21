@@ -1,6 +1,6 @@
 {
-  "name": "@dhl/resolver",
-  "version": "1.0.0",
+  "name": "@dhlx/resolver",
+  "version": "0.0.2",
   "main": "/dist/index.js",
   "type": "module",
   "types": "/dist",
@@ -8,7 +8,12 @@
     "tsc": "tsc",
     "test": "ava"
   },
-  "author": "3379489032@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiDengHui/resolver.git"
+  },
+  "private": false,
+  "author": "lidenghui <3379489032@qq.com>",
   "license": "MIT",
   "description": "",
   "devDependencies": {

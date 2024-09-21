@@ -4,13 +4,13 @@ resolver 是一个强大的 TypeScript 工具函数，用于处理异步函数�
 ## 二、安装
 使用以下命令通过 NPM 安装：
 ```shell
-npm install @dhl/resolver 
+npm install @dhlx/resolver 
 ```
 
 ### 三、使用示例
 
 ```ts
-import resolver from 'your-package-name';  // 请替换为实际的包名
+import resolver from 'dhlx';  // 请替换为实际的包名
 
 // 定义一个异步函数，返回值为字符串，可能抛出错误
 const asyncFn = async (input: string): Promise<string> => {
